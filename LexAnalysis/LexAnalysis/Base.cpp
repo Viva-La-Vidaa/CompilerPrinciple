@@ -1,6 +1,6 @@
 #include "Base.h"
 
-char KeyWord[35][20] = {     //使用const,修改函数参数即可
+char KeyWord[35][20] = {     //如果使用const,修改函数参数为cosnt即可
 	"auto", "break", "case", "char", "const", "continue",
 	"default", "do", "double", "else", "enum", "extern",
 	"float", "for", "goto", "if", "int", "long", "register",

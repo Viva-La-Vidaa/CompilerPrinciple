@@ -5,7 +5,6 @@
 #include<cstring>
 
 #define MaxLen 100
-
 //全局变量，关键字表,
 //state的值对应关键字,从1到35
 extern char KeyWord[35][20];
@@ -13,7 +12,6 @@ extern char KeyWord[35][20];
  //界限符表
  //state的值对应关键字,从36到72
 extern char OperatorOrDelimiter[37][10];
-
 class Base
 {
    public:
