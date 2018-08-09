@@ -1,0 +1,8 @@
+class Base
+{
+   public:
+	   bool is_Digtal(char);  //字符是否是数字	
+	   bool is_Characters(char);//字符是否是大小写字母
+	   bool is_SingleOperatorOrDelimiter(char);/*字符是否是  长度为1的界限符*/
+	   int SearchKeyWord(char [][20],char []);
+};

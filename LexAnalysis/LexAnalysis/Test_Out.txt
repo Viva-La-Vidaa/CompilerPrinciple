@@ -1,0 +1,49 @@
+过滤前的代码    class Base
+{
+   public:
+	   bool is_Digtal(char);  //字符是否是数字	
+	   bool is_Characters(char);//字符是否是大小写字母
+	   bool is_SingleOperatorOrDelimiter(char);/*字符是否是  长度为1的界限符*/
+	   int SearchKeyWord(char [][20],char []);
+};
+过滤后的代码    class Base{   public:   bool is_Digtal(char);     bool is_Characters(char);   bool is_SingleOperatorOrDelimiter(char);   int SearchKeyWord(char [][20],char []);};
+标识符    class
+标识符    Base
+界限符    {
+标识符    public
+界限符    :
+标识符    bool
+标识符    is_Digtal
+界限符    (
+关键字    char
+界限符    )
+界限符    ;
+标识符    bool
+标识符    is_Characters
+界限符    (
+关键字    char
+界限符    )
+界限符    ;
+标识符    bool
+标识符    is_SingleOperatorOrDelimiter
+界限符    (
+关键字    char
+界限符    )
+界限符    ;
+关键字    int
+标识符    SearchKeyWord
+界限符    (
+关键字    char
+界限符    [
+界限符    ]
+界限符    [
+数字    20
+界限符    ]
+界限符    ,
+关键字    char
+界限符    [
+界限符    ]
+界限符    )
+界限符    ;
+界限符    }
+界限符    ;
