@@ -9,10 +9,9 @@ bool is_Characters(char);//字符是否是大小写字母<br/>
 bool is_SingleOperatorOrDelimiter(char);/*字符是否是  长度为1的界限符*/<br/>
 int SearchKeyWord(char [][20],char []);<br/>
 };<br/>
-Output:<br/>![image](https://github.com/Chinese-Dd/CompilerPrinciple/blob/master/LexAnalysis_Output.png)<br/>   
+Output:![image](https://github.com/Chinese-Dd/CompilerPrinciple/blob/master/LexAnalysis_Output.png)
 
 --------------------------------------------------------------------------
-
 **LL(1)Parser:**<br/>
 Input:<br/>
 8<br/>
@@ -24,5 +23,5 @@ M->*FM<br/>
 M->$<br/>
 F->i<br/>
 F->(E)<br/>
-i+i\*i# <br/>  
-Output:<br/>![image](https://github.com/Chinese-Dd/CompilerPrinciple/blob/master/LL(1)_Output.png)<br/>  
+i+i\*i#
+Output:![image](https://github.com/Chinese-Dd/CompilerPrinciple/blob/master/LL(1)_Output.png)
